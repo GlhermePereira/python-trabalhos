@@ -1,0 +1,59 @@
+Instruções
+ 
+Desenvolver um sistema que permita adicionar filmes ao acervo de uma locadora, cadastrar clientes e alugar filmes aos clientes cadastrados.
+ 
+Para isso, crie um programa principal ('main.py") que permita ao usuário interagir com o sistema. O programa deve exibir um menu com as seguintes opções:
+ 
+
+ 
+1. Adicionar filme
+ 
+2. Adicionar cliente
+ 
+3. Alugar filme
+ 
+4. Listar filmes disponíveis
+ 
+5. Listar filmes alugados
+ 
+6. Listar clientes
+ 
+7. Sair
+ 
+Cada opção do menu deve chamar os métodos correspondentes das classes a seguir:
+ 
+1.Filme
+
+ 
+• Atributos: titulo, ano de lançamento, gênero e disponibilidade.
+ 2.Cliente
+ 
+Aplicativos
+ 
+• Atributos: ID e nome.
+ 
++
+ 
+3.Locadora
+ 
+• Métodos:
+ 
+■ adicionar_filme (filme)
+ 
+■ adicionar_cliente(cliente)
+ 
+■ alugar_filme(filme, cliente)
+ 
+■ listar_filmes_disponiveis()
+ 
+■listar_filmes_alugados()
+ 
+listar_clientes()
+ 
+IMPORTANTE:
+ 
+Inicialmente, todos os filmes estão disponíveis
+ 
+Antes de alugar um filme verifique se está disponível e se o cliente está cadastrado.
+ 
+Atualize a disponibilidade do filme após alugá-lo.
